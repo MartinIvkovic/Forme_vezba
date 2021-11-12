@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Prijavite se da bi nastavili dalje</h1>
+    <form>
+            <label for="email" >Email*:</label>
+            <input type="email" id="email"  required name="email"> <br> <br>
+            <label for ="password">Lozinka*:</label>
+            <input type="password" id="password" type="password" name="pasword" required><br>
+            <input type="submit" value="login">
+
+
+
+        </form>
+        <br>
+        <form>
+            <fieldset >
+                <legend>Podaci za dostavu</legend>
+                    <label for="adresa">Adresa*: </label>
+                    <input id="adresa" type="text" required name="adresa"><br>
+                    <label for="broj_kartice">Broj kreditne kartice*: </label>
+                    <input id="broj_kartice" type="password" required name="kartica"><br>
+                    <label for "ime">Ime kupca*:</label>
+                    <input type="text" id="ime" required name="ime"><br>
+                    <label> Broj artikla (min1, max 20)*</label>
+                    <input type="number" min="2" max="20" name=broj><br>
+            </fieldset>
+                <input type="reset" value="Ukloni podatke" name="ukloni">
+                 <input type="submit" name="poruci" value="poruci">
+
+
+        </form> <br>
+            <form>
+                    <label> ostavi komentar </label>
+                    <textarea maxlength="500" row="3" col="50"> </textarea><br>
+                    <label> Lozinka </label>
+                    <input type="password" minlenght="10" maxlenght="20" required><br>
+                    <label for="url">ukucaj svoju adresu</label>
+                    <input type="url" id="url" required><br>
+                    <label>da li imas 18 godina</label>
+                    <input type="checkbox" name="godine"><br>
+            </form>
+            <form>
+
+
+            </form>
+                 
+                    
+            
+
+</body>
+</html>
