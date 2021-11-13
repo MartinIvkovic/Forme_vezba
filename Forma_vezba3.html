@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vezba_3</title>
+</head>
+<body>
+    <h1>Prijava za posao</h1>
+    <form>
+            <fieldset>
+                <h2> Molimo vas da unesete vase podatke. polja obelezena zvezdicom su obavezna</h2>
+                <fieldset>
+                        <legend> Kontakt podaci</legend>
+                        <label for="email" >Email*:</label>
+                        <input type="email" id="email"  required name="email" required> <br> <br>
+                        <label for ="password">Lozinka*:</label>
+                        <input type="password" id="password" type="password" name="pasword" required><br>
+                        <label for="korisnik">Korisnicko ime </label>
+                        <input type="text" placeholder="Vase ime.." id="korisnik"><br>
+                        <label for="godine">Godine</label>
+                        <input type="number" name="godine" id="godine" min="18" >
+                </fieldset>
+                <fieldset>
+                        <legend>Datum i vreme sastanka</legend>
+                        <input type="date" name="datum"> <input type="time" name="vreme">
+
+
+                </fieldset>
+                <fieldset>
+                <legend>Pol</legend>
+                        <select id="pol" name="pol">
+                            <option>Muski </option>
+                            <option>zenski </option>
+                            <option>drugo</option>
+                            </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Pozicija</legend>
+                    <label for="pozicija_1">junior </label>
+                    <input type="radio" name="pozicije" id="pozicija_1" value="junior" checked>
+                    <label for="pozicija_2">Senior </label>
+                    <input type="radio" name="pozicije" id="pozicija_2" value="senior">
+                    <label for="pozicija_3">Medior </label>
+                    <input type="radio" name="pozicije" id="pozicija_3" value="Medior">
+
+
+                </fieldset>
+                <fieldset>
+                    <legend>Programski jezici</legend>
+                        <label for="check1"> PHP </label>
+                        <input type="checkbox" name="check1" id="check1" checked><br>
+                        <label for="check1"> Java </label>
+                        <input type="checkbox" name="check2" id="check2" >  <br>     
+                        <label for="check3"> Python</label>
+                        <input type="checkbox" name="check3" id="check3" ><br>
+                        <label for="chec41"> javascript </label>
+                        <input type="checkbox" name="check4" id="check4" ><br>
+                        <label for="check5"> c++ </label>
+                        <input type="checkbox" name="check5" id="check5" ><br>
+                        <label for="check6"> c# </label>
+                        <input type="checkbox" name="check6" id="check6" ><br>
+                        <label for="check7"> Go </label>
+                        <input type="checkbox" name="check7" id="check6" ><br>
+
+
+
+                </fieldset>
+
+        
+
+
+                    <input type="reset" value="ukloni podatke">
+                    <input type="submit" name="poruci" value="posalji podatke">
+
+
+            </fieldset>
+        </form>
+</body>
+</html>
